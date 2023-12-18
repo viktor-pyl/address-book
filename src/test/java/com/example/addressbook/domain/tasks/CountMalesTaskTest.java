@@ -38,7 +38,7 @@ class CountMalesTaskTest {
   @Test
   void shouldCountMalesInAddressBook() {
     // given
-    var malesList = new ArrayList<Person>();
+    var malesList = new ArrayList<Person>(2);
     malesList.add(PersonProvider.getMalePerson());
     malesList.add(PersonProvider.getMalePerson());
     given(addressBook.findPersonsByGender(Gender.MALE)).willReturn(malesList);
