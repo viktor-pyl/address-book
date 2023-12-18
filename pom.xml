@@ -14,7 +14,7 @@
     <name>address-book</name>
     <description>address-book</description>
     <properties>
-        <revision>0.0.1-SNAPSHOT</revision>
+        <revision>1.0.0</revision>
         <java.version>17</java.version>
         <fmt.version>2.13</fmt.version>
     </properties>
