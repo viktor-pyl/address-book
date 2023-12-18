@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: prod
+  application:
+    name: @project.name@
+
+logging:
+  level:
+    root: INFO
+    com.example.addressbook: INFO
+  pattern:
+    dateformat: "yyyy-MM-dd HH:mm:ss.SSS"
